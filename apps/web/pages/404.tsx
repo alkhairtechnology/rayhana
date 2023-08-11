@@ -132,7 +132,7 @@ export default function Custom404() {
       />
       <div className="bg-default min-h-screen px-4" data-testid="404-page">
         <main className="mx-auto max-w-xl pb-6 pt-16 sm:pt-24">
-          {isSignup && process.env.NEXT_PUBLIC_WEBAPP_URL !== "https://app.cal.com" ? (
+          {isSignup && process.env.NEXT_PUBLIC_WEBAPP_URL !== "https://app.takwim.my" ? (
             <div>
               <div>
                 <p className="text-emphasis text-sm font-semibold uppercase tracking-wide">
@@ -141,7 +141,7 @@ export default function Custom404() {
                 <h1 className="font-cal text-emphasis mt-2 text-3xl font-extrabold">
                   {t("signup_requires")}
                 </h1>
-                <p className="mt-4">{t("signup_requires_description", { companyName: "Cal.com" })}</p>
+                <p className="mt-4">{t("signup_requires_description", { companyName: "Al Khair Technology Sdn. Bhd." })}</p>
               </div>
               <div className="mt-12">
                 <h2 className="text-subtle text-sm font-semibold uppercase tracking-wide">
@@ -150,7 +150,7 @@ export default function Custom404() {
                 <ul role="list" className="mt-4">
                   <li className="border-2 border-green-500 px-4 py-2">
                     <a
-                      href="https://console.cal.com"
+                      href="https://www.takwim.my"
                       className="relative flex items-start space-x-4 py-6 rtl:space-x-reverse">
                       <div className="flex-shrink-0">
                         <span className="flex h-12 w-12 items-center justify-center rounded-lg bg-green-50">
@@ -306,61 +306,7 @@ export default function Custom404() {
                     </li>
                   </ul>
                 )}
-                <h2 className="text-subtle text-sm font-semibold uppercase tracking-wide">
-                  {t("popular_pages")}
-                </h2>
-                <ul role="list" className="border-subtle divide-subtle divide-y">
-                  {links
-                    .filter((_, idx) => currentPageType === pageType.ORG || idx !== 0)
-                    .map((link, linkIdx) => (
-                      <li key={linkIdx} className="px-4 py-2">
-                        <a
-                          href={link.href}
-                          className="relative flex items-start space-x-4 py-6 rtl:space-x-reverse">
-                          <div className="flex-shrink-0">
-                            <span className="bg-muted flex h-12 w-12 items-center justify-center rounded-lg">
-                              <link.icon className="text-default h-6 w-6" aria-hidden="true" />
-                            </span>
-                          </div>
-                          <div className="min-w-0 flex-1">
-                            <h3 className="text-emphasis text-base font-medium">
-                              <span className="focus-within:ring-empthasis rounded-sm focus-within:ring-2 focus-within:ring-offset-2">
-                                <span className="absolute inset-0" aria-hidden="true" />
-                                {link.title}
-                              </span>
-                            </h3>
-                            <p className="text-subtle text-base">{link.description}</p>
-                          </div>
-                          <div className="flex-shrink-0 self-center">
-                            <ChevronRight className="text-muted h-5 w-5" aria-hidden="true" />
-                          </div>
-                        </a>
-                      </li>
-                    ))}
-                  <li className="px-4 py-2">
-                    <a
-                      href={JOIN_DISCORD}
-                      className="relative flex items-start space-x-4 py-6 rtl:space-x-reverse">
-                      <div className="flex-shrink-0">
-                        <span className="bg-muted flex h-12 w-12 items-center justify-center rounded-lg">
-                          <Discord className="text-default h-6 w-6" />
-                        </span>
-                      </div>
-                      <div className="min-w-0 flex-1">
-                        <h3 className="text-emphasis text-base font-medium">
-                          <span className="focus-within:ring-empthasis rounded-sm focus-within:ring-2 focus-within:ring-offset-2">
-                            <span className="absolute inset-0" aria-hidden="true" />
-                            Discord
-                          </span>
-                        </h3>
-                        <p className="text-subtle text-base">{t("join_our_community")}</p>
-                      </div>
-                      <div className="flex-shrink-0 self-center">
-                        <ChevronRight className="text-muted h-5 w-5" aria-hidden="true" />
-                      </div>
-                    </a>
-                  </li>
-                </ul>
+              
                 <div className="mt-8">
                   <Link href="/" className="hover:text-subtle text-emphasis text-base font-medium">
                     {t("or_go_back_home")}
