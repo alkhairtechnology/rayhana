@@ -14,14 +14,14 @@ export const metadata = {
   category: "payment",
   categories: ["payment"],
   logo: "icon.svg",
-  publisher: "Cal.com",
+  publisher: "Takwim",
   title: "Stripe",
   type: "stripe_payment",
-  url: "https://cal.com/",
+  url: "https://takwim.my/",
   docsUrl: "https://stripe.com/docs",
   variant: "payment",
   extendsFeature: "EventType",
-  email: "help@cal.com",
+  email: "support@takwim.my",
   dirName: "stripepayment",
 } as AppMeta;
 

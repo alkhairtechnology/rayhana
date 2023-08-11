@@ -12,10 +12,10 @@ export const metadata = {
   categories: ["calendar"],
   category: "calendar",
   logo: "icon.svg",
-  publisher: "Cal.com",
+  publisher: "Takwim",
   slug: "apple-calendar",
-  url: "https://cal.com/",
-  email: "help@cal.com",
+  url: "https://www.takwim.my/",
+  email: "help@takwim.my",
   dirName: "applecalendar",
 } as AppMeta;
 

@@ -33,7 +33,7 @@ export const CAL_URL = new URL(WEBAPP_URL).hostname.endsWith(".vercel.app") ? WE
 
 export const IS_CALCOM =
   WEBAPP_URL &&
-  (new URL(WEBAPP_URL).hostname.endsWith("takiwm.my") ||
+  (new URL(WEBAPP_URL).hostname.endsWith("takwim.my") ||
     new URL(WEBAPP_URL).hostname.endsWith("cal.dev") ||
     new URL(WEBAPP_URL).hostname.endsWith("cal.qa") ||
     new URL(WEBAPP_URL).hostname.endsWith("cal-staging.com"));

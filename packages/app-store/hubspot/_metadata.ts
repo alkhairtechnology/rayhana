@@ -9,13 +9,13 @@ export const metadata = {
   type: "hubspot_other_calendar",
   variant: "other_calendar",
   logo: "icon.svg",
-  publisher: "Cal.com",
+  publisher: "Takwim",
   url: "https://hubspot.com/",
   categories: ["crm"],
   label: "HubSpot CRM",
   slug: "hubspot",
   title: "HubSpot CRM",
-  email: "help@cal.com",
+  email: "support@takwim.my",
   dirName: "hubspot",
 } as AppMeta;
 

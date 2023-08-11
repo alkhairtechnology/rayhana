@@ -8,14 +8,14 @@ export const metadata = {
   installed: true,
   categories: ["other"],
   logo: "icon.svg",
-  publisher: "Cal.com",
+  publisher: "Takwim",
   slug: "giphy",
   title: "Giphy",
   type: "giphy_other",
-  url: "https://cal.com/apps/giphy",
+  url: "https://takwim.my",
   variant: "other",
   extendsFeature: "EventType",
-  email: "help@cal.com",
+  email: "Support@takwim.my",
   dirName: "giphy",
 } as AppMeta;
 

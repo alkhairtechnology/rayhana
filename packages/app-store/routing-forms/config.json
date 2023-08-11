@@ -6,13 +6,13 @@
   "slug": "routing-forms",
   "type": "routing-forms_other",
   "logo": "icon-dark.svg",
-  "url": "https://cal.com/resources/feature/routing-forms",
+  "url": "https://takwim.my",
   "variant": "other",
   "categories": ["automation"],
-  "publisher": "Cal.com, Inc.",
+  "publisher": "Takwim",
   "simplePath": "/apps/routing-forms",
-  "email": "help@cal.com",
-  "licenseRequired": true,
+  "email": "support@takwim.modify",
+  "licenseRequired": false,
   "teamsPlanRequired": {
     "upgradeUrl": "/routing-forms/forms"
   },
