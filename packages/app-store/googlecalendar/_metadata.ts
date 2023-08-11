@@ -13,7 +13,7 @@ export const metadata = {
   category: "calendar",
   categories: ["calendar"],
   logo: "icon.svg",
-  publisher: "Takwim,
+  publisher: "Takwim",
   slug: "google-calendar",
   url: "https://takwim.my/",
   email: "support@takwim.my",
