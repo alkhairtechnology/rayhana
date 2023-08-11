@@ -46,12 +46,21 @@ export default function EmptyScreen(props: { isFilteredView: boolean }) {
       }
 
       if (err.data?.code === "UNAUTHORIZED") {
-        const message = `${err.data.code}: You are not authorized to create this workflow`;
+        const message = `${err.data.code}: You are not authorized to create this reminder`;
         showToast(message, "error");
       }
     },
   });
 
+  const workflowsExamples = [
+    
+    
+    { icon: Mail, text: t("workflow_example_3") },
+    { icon: Mail, text: t("workflow_example_4") },
+    { icon: Mail, text: t("workflow_example_5") },
+    
+  ];
+  /** 
   const workflowsExamples = [
     { icon: Smartphone, text: t("workflow_example_1") },
     { icon: Smartphone, text: t("workflow_example_2") },
@@ -60,6 +69,7 @@ export default function EmptyScreen(props: { isFilteredView: boolean }) {
     { icon: Mail, text: t("workflow_example_5") },
     { icon: Smartphone, text: t("workflow_example_6") },
   ];
+  */
   // new workflow example when 'after meetings ends' trigger is implemented: Send custom thank you email to attendee after event (Smile icon),
 
   if (props.isFilteredView) {
