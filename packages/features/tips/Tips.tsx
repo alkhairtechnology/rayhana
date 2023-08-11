@@ -156,15 +156,7 @@ function Tips() {
                 top: -baseOriginalList.indexOf(tip) * 10,
                 opacity: `${1 - baseOriginalList.indexOf(tip) / 7}`,
               }}>
-              <Card
-                variant="SidebarCard"
-                thumbnailUrl={tip.thumbnailUrl}
-                mediaLink={tip.mediaLink}
-                title={tip.title}
-                description={tip.description}
-                learnMore={{ href: tip.href, text: t("learn_more") }}
-                actionButton={{ onClick: () => handleRemoveItem(tip.id), child: t("dismiss") }}
-              />
+              
             </div>
           </div>
         );
