@@ -20,7 +20,7 @@ export const WEBAPP_URL_FOR_OAUTH = IS_PRODUCTION ? WEBAPP_URL : "https://app.ta
 /** @deprecated use `WEBAPP_URL` */
 export const BASE_URL = WEBAPP_URL;
 export const WEBSITE_URL = process.env.NEXT_PUBLIC_WEBSITE_URL || "https://takwim.my";
-export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || "Cal.com";
+export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || "Takwim";
 export const SUPPORT_MAIL_ADDRESS = process.env.NEXT_PUBLIC_SUPPORT_MAIL_ADDRESS || "support@takwim.my";
 export const COMPANY_NAME = process.env.NEXT_PUBLIC_COMPANY_NAME || "Al Khair Technology Sdn. Bhd.";
 export const SENDER_ID = process.env.NEXT_PUBLIC_SENDER_ID || "Takwim";
