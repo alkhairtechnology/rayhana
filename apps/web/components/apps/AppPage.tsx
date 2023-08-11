@@ -83,7 +83,7 @@ export const AppPage = ({
 
   const priceInDollar = Intl.NumberFormat("en-US", {
     style: "currency",
-    currency: "USD",
+    currency: "MYR",
     useGrouping: false,
   }).format(price);
 
@@ -282,7 +282,7 @@ export const AppPage = ({
             <>
               {Intl.NumberFormat(i18n.language, {
                 style: "currency",
-                currency: "USD",
+                currency: "MYR",
                 useGrouping: false,
               }).format(price)}
               {feeType === "monthly" && "/" + t("month")}

@@ -19,7 +19,7 @@ export const createPaymentsFixture = (page: Page) => {
           uid: uuidv4(),
           amount: 20000,
           fee: 160,
-          currency: "usd",
+          currency: "myr",
           success,
           refunded,
           app: {

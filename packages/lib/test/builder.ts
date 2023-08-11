@@ -98,7 +98,7 @@ export const buildEventType = (eventType?: Partial<EventType>): EventType => {
     bookingLimits: null,
     durationLimits: null,
     price: 0,
-    currency: "usd",
+    currency: "myr",
     slotInterval: null,
     metadata: null,
     successRedirectUrl: null,

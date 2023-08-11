@@ -136,7 +136,7 @@ test.describe("Reschedule Tests", async () => {
             stripe: {
               price: 20000,
               enabled: true,
-              currency: "usd",
+              currency: "myr",
             },
           },
         },
