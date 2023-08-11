@@ -171,7 +171,7 @@ export default function Login({
                   id="email"
                   label={t("email_address")}
                   defaultValue={totpEmail || (searchParams?.get("email") as string)}
-                  placeholder="john.doe@example.com"
+                  placeholder="azdi@takwim.my"
                   required
                   {...register("email")}
                 />
