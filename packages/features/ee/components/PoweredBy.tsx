@@ -15,7 +15,7 @@ const PoweredByCal = ({ logoOnly }: { logoOnly?: boolean }) => {
     <div className={"p-2 text-center text-xs sm:text-right" + (isEmbed ? " max-w-3xl" : "")}>
       <Link href={POWERED_BY_URL} target="_blank" className="text-subtle">
         {!logoOnly && <>{t("powered_by")} </>}
-        {APP_NAME === "Cal.com" || !hasValidLicense ? (
+        {APP_NAME === "Takwim" || !hasValidLicense ? (
           <>
             <img
               className="relative -mt-px inline h-[10px] w-auto dark:invert"
