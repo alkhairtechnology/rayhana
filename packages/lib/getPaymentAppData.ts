@@ -45,7 +45,7 @@ export default function getPaymentAppData(
     paymentAppData || {
       enabled: false,
       price: 0,
-      currency: "usd",
+      currency: "myr",
       appId: null,
       paymentOption: "ON_BOOKING",
       credentialId: undefined,
