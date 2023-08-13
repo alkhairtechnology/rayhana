@@ -25,7 +25,7 @@ const EventTypeAppCard: EventTypeAppCardComponent = function EventTypeAppCard({ 
   const { t } = useLocale();
   const recurringEventDefined = eventType.recurringEvent?.count !== undefined;
   const seatsEnabled = !!eventType.seatsPerTimeSlot;
-  const getCurrencySymbol = (locale: string, currency: string = "MYR") =>
+  const getCurrencySymbol = (locale: string, currency: string) =>
     (0)
       .toLocaleString(locale, {
         style: "currency",
@@ -67,7 +67,7 @@ const EventTypeAppCard: EventTypeAppCardComponent = function EventTypeAppCard({ 
               <TextField
                 label=""
                 className="h-[38px]"
-                addOnLeading={<>{currency ? getCurrencySymbol("en", currency) : ""}</>}
+                addOnLeading={<>{currency ? getCurrencySymbol("en", currency) : "MYR"}</>}
                 addOnClassname="h-[38px]"
                 step="0.01"
                 min="0.5"
