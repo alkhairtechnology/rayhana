@@ -51,4 +51,4 @@ Takwim officially launched on the 1st of August 2023 based on open source techno
 
 ## License
 
-The Takwim source code is distributed under the [AGPLv3 License]
+The Takwim source code is distributed under the <a href="https://www.gnu.org/licenses/agpl-3.0.html">AGPLv3 License</a>
