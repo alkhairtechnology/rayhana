@@ -25,7 +25,7 @@ const EventTypeAppCard: EventTypeAppCardComponent = function EventTypeAppCard({ 
   const { t } = useLocale();
   const recurringEventDefined = eventType.recurringEvent?.count !== undefined;
   const seatsEnabled = !!eventType.seatsPerTimeSlot;
-  const getCurrencySymbol = (locale: string, currency: string) =>
+  const getCurrencySymbol = (locale: string, currency: string = "MYR") =>
     (0)
       .toLocaleString(locale, {
         style: "currency",
