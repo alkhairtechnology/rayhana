@@ -29,7 +29,7 @@ const EventTypeAppCard: EventTypeAppCardComponent = function EventTypeAppCard({ 
     (0)
       .toLocaleString(locale, {
         style: "currency",
-        currency,
+        currency: "MYR",
         minimumFractionDigits: 0,
         maximumFractionDigits: 0,
       })
@@ -52,7 +52,7 @@ const EventTypeAppCard: EventTypeAppCardComponent = function EventTypeAppCard({ 
             {t("payment_app_commission", {
               paymentFeePercentage: 0.5,
               fee: 0.1,
-              formatParams: { fee: { currency } },
+              formatParams: { fee: { currency: "MYR" } },
             })}
           </div>
         </>
@@ -67,7 +67,7 @@ const EventTypeAppCard: EventTypeAppCardComponent = function EventTypeAppCard({ 
               <TextField
                 label=""
                 className="h-[38px]"
-                addOnLeading={<>{currency ? getCurrencySymbol("en", currency) : "MYR"}</>}
+                addOnLeading={<>{currency ? getCurrencySymbol("en", currency) : ""}</>}
                 addOnClassname="h-[38px]"
                 step="0.01"
                 min="0.5"
