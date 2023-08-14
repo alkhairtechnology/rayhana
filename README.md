@@ -45,7 +45,7 @@ Meet our sales team for any commercial inquiries. <a href="https://takwim.my/sal
 
 ## Stay Up-to-Date
 
-Takwim officially launched on the 1st of August 2023 based on open source technologies. Check out our  <a href="https://takwim.my">website</a> for latest updates.
+Takwim officially launched on the 1st of August 2023 based on open-source technologies used in Cal.com. Check out our  <a href="https://takwim.my">website</a> for latest updates.
 
 <!-- LICENSE -->
 
